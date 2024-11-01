@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 150px auto;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+}
+.list-item {
+    width: 250px;
+    height: 250px;
+}
+.list-item:nth-child(1) {
+    background-color: plum;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+.list-item:nth-child(2) {
+    background-color: skyblue;
+    position: absolute;
+    top: 280px;
+    left: 280px;
+    z-index: 1;
+}
+.list-item:nth-child(3) {
+    background-color: mediumspringgreen;
+    position: absolute;
+    top: 420px;
+    left: 420px;
+}
